@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(218, 244, 253);
+}
+
+.logo {
+  display: flex;
+  padding: 40px;
+}
+
+.sectionContent {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #0a3871;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #0a3871;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #0a3871;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #0a3871;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #0a3871;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #0a3871;
+}
+
+.inputText {
+  width: 680px;
+  height: 600px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  color: #0a3871;
+  font-size: 26px;
+  text-justify: auto;
+  border: none;
+  background-color: rgb(218, 244, 253);
+  outline: none;
+}
+
+.criptContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 70vh;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  background-color: #fff;
+  align-items: center;
+}
+
+.criptContentMessageTitle {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+}
+
+.criptContentMessageCripted {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #495057;
+  padding-top: 10%;
+}
+
+.buttonsContent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.buttonCrypt {
+  width: 328px;
+  height: 67px;
+  gap: 8px;
+  border-radius: 24px;
+  opacity: 0px;
+  color: rgb(255, 255, 255);
+  background-color: #0a3871;
+}
+
+.buttonDecrypt {
+  width: 328px;
+  height: 67px;
+  gap: 8px;
+  border-radius: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: #0a3871;
+  background-color: #d8dfe8;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: center;
+}
+
+.buttonCopy {
+  width: 336px;
+  height: 67px;
+  top: 885px;
+  left: 1032px;
+  border-radius: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #fff;
+}
+
+.imgBoy {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.instructionsText {
+  width: 100%;
+  height: 18px;
+  color: #495057;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  padding-right: 20%;
+  
+}

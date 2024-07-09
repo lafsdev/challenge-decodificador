@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/img/logo.svg" alt="logo" />
+    </header>
+    <main class="mainContent">
+      <section class="sectionContent">
+        <textarea id="inputText" class="inputText" placeholder="Digite seu texto" cols="20" rows="10"></textarea>
+        <div class="criptContent"> 
+            <img src="./assets/img/imgBoy.svg" alt="boy" class="imgBoy" id="imgBoy"/> 
+            <hi id="criptContentMessageTitle" class="criptContentMessageTitle">Nenhuma mensagem encontrada</hi>
+            <textarea id="criptContent"  class="criptContentMessageCripted" placeholder="Digite um texto que você deseja criptografar ou descriptografar." cols="20" rows="10" readonly></textarea>
+            <button class="buttonCopy" onclick="copyToKeyboard()">Copiar</button>
+        </div>
+     
+      </section>     
+      <p class="instructionsText">Apenas letras minúsculas e sem acento.</p> 
+      <div class="buttonsContent">
+        <button class="buttonCrypt" onclick="cryptText()">Criptografar</button>
+        <button class="buttonDecrypt" onclick="decryptText()">Descriptografar</button>
+      </div>
+
+    </main>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
